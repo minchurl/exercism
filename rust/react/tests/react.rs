@@ -62,6 +62,7 @@ fn error_creating_compute_cell_if_input_doesnt_exist() {
 
 #[test]
 #[ignore]
+
 fn do_not_break_cell_if_creating_compute_cell_with_valid_and_invalid_input() {
     let mut dummy_reactor = Reactor::new();
     let _ = dummy_reactor.create_input(1);
